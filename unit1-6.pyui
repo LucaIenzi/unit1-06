@@ -1,0 +1,86 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{223, 81}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "E304F48E-C091-4C05-9738-667A22B0D1EE",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "local_answer_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{35, 81}, {80, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "local_button_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "local",
+          "uuid" : "1B500938-24EB-4BBC-AA90-9A74C7B50607",
+          "class" : "Button",
+          "name" : "local_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{223, 191}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "05D9467B-0A66-4A25-99B4-499D1B286592",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "global_answer_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{35, 186}, {80, 37}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "global_button_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "global",
+          "uuid" : "29F8AA29-F9CB-494F-89B6-6220668D8CDD",
+          "class" : "Button",
+          "name" : "global_button",
+          "font_size" : 15
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
